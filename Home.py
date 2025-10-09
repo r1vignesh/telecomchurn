@@ -1,14 +1,10 @@
 import streamlit as st
 
-# ---------------------------------------------------------------
-# Page Configuration
-# ---------------------------------------------------------------
 st.set_page_config(
-    page_title="Customer Churn Prediction App",
+    page_title="Churn Prediction App",
     page_icon="📊",
-    layout='wide'
+    layout="wide"
 )
-
 # ---------------------------------------------------------------
 # Landing Section
 # ---------------------------------------------------------------

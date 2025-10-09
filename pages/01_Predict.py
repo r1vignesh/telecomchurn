@@ -3,6 +3,8 @@ import streamlit as st
 import joblib
 import pandas as pd
 import sys
+# Add this at the top with other imports
+import imblearn
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import StandardScaler, LabelEncoder, MinMaxScaler, OneHotEncoder
 from sklearn.impute import SimpleImputer
