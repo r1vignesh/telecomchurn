@@ -93,3 +93,6 @@ tenure,monthlycharges,totalcharges,partner,dependents,phoneservice,multiplelines
 48,13,624,Yes,No,Yes,Yes,DSL,No,Yes,No,Yes,No,Yes,Month-to-month,Yes,Mailed check,0,Female,Churn,50.75,49.25,adaboost,
 34,18,612,Yes,Yes,No,No,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Female,Stay,49.25,50.75,adaboost,
 52,20,1040,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Stay,49.25,50.75,adaboost,
+21,28,588,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Churn,50.75,49.25,adaboost,
+21,28,588,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Stay,20.26,79.74,logistic_regression,
+21,28,588,Yes,Yes,Yes,Yes,Fiber optic,Yes,Yes,Yes,Yes,Yes,Yes,Month-to-month,Yes,Electronic check,0,Male,Stay,37.0,63.0,random_forest,
