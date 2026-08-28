@@ -2,13 +2,10 @@ import streamlit as st
 
 st.set_page_config(
     page_title="Churn Prediction App",
-    page_icon="📊",
+    page_icon="",
     layout="wide"
 )
-# ---------------------------------------------------------------
-# Landing Section
-# ---------------------------------------------------------------
-st.title("📈 Customer Churn Prediction System")
+st.title("Customer Churn Prediction System")
 
 st.write("""
 Welcome to the *Customer Churn Prediction App*, an interactive web-based system 
@@ -20,11 +17,7 @@ customer retention and reduce business losses.
 """)
 
 st.markdown("---")
-
-# ---------------------------------------------------------------
-# Information Section
-# ---------------------------------------------------------------
-st.header("🔍 About the Project")
+st.header("About the Project")
 
 st.write("""
 *Customer churn* occurs when customers stop using a company’s services.  
@@ -36,13 +29,9 @@ This project focuses on:
 - Identifying *key factors* that lead to churn
 - Providing *predictive insights* for proactive decision-making
 """)
-
 st.markdown("---")
 
-# ---------------------------------------------------------------
-# Technical Overview
-# ---------------------------------------------------------------
-st.header("⚙ How It Works")
+st.header("How It Works")
 
 st.write("""
 The *Customer Churn Prediction System* performs the following steps:
@@ -63,25 +52,19 @@ These models are trained on key parameters such as:
 
 st.markdown("---")
 
-# ---------------------------------------------------------------
-# Key Features
-# ---------------------------------------------------------------
-st.header("🚀 Key Features")
+st.header("Key Features")
 
 st.write("""
-- 🧹 *Automated Data Cleaning:* Handles missing values and inconsistent entries.  
-- 📊 *Data Visualization:* Shows insights on churn rates and customer patterns.  
-- 🤖 *Machine Learning Integration:* Uses multiple algorithms for accuracy.  
-- 🧠 *Predictive Analysis:* Estimates churn probability for individual customers.  
-- 💾 *Data Storage:* Saves previous results for analysis and review.  
+- *Automated Data Cleaning:* Handles missing values and inconsistent entries.  
+- *Data Visualization:* Shows insights on churn rates and customer patterns.  
+- *Machine Learning Integration:* Uses multiple algorithms for accuracy.  
+- *Predictive Analysis:* Estimates churn probability for individual customers.  
+- *Data Storage:* Saves previous results for analysis and review.  
 """)
 
 st.markdown("---")
 
-# ---------------------------------------------------------------
-# Closing Section
-# ---------------------------------------------------------------
-st.header("💡 Conclusion")
+st.header("Conclusion")
 
 st.write("""
 The *Customer Churn Prediction App* is a complete solution for understanding customer behavior 
